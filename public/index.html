@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>WebRTC</title>
   </head>
   <body>
     <div class="user-container">
       <h3>User A</h3>
       <div class="user-video">
-        <video autoplay playsinline></video>
+        <video autoplay playinline></video>
       </div>
     </div>
     <div class="remote-container">
       <h3>User B</h3>
       <div class="remote-video">
-        <video autoplay playsinline></video>
+        <video autoplay playinline></video>
       </div>
     </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
   </body>
 </html>
